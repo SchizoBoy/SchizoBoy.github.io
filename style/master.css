@@ -3,7 +3,8 @@
 body{
   display: flex;
   flex-wrap: wrap;
-  background-color: #FF3030;
+  background-color: #CCCCCC;
+  font-family: Courier New, monospace;
 }
 
 a{
@@ -13,6 +14,9 @@ a{
 nav{
   display: flex;
   width: 20vmax;
+  background-color: #F03838;
+  padding: 0.5vmax;
+  padding: 1vmax;
 }
 
 #centre{
@@ -20,15 +24,18 @@ nav{
 }
 
 #titre{
-  display: flex;
+  flex-wrap: wrap;
+  height: 14vmax;
   width: 100vmax;
-  height: 10vmax;
-  background-color: #F0FC3C;
+  padding-top: 2vmax;
+  padding-left: 6vmax;
+  background-color: #F03838;
+  margin: .5vmax;
 }
 
 #affichage{
-  border: 5px;
   display: flex;
   width: 80vmax;
   height: 80vmax;
+  padding: 1vmax;
 }
