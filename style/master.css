@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
 body{
-  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FF3030;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  width: 20vmax;
+}
+
+#centre{
+  display: flex;
+}
+
+#titre{
+  display: flex;
+  width: 100vmax;
+  height: 10vmax;
+  background-color: #F0FC3C;
+}
+
+#affichage{
+  border: 5px;
+  display: flex;
+  width: 80vmax;
+  height: 80vmax;
 }
