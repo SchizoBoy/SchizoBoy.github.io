@@ -3,20 +3,36 @@
 body{
   display: flex;
   flex-wrap: wrap;
-  background-color: #CCCCCC;
+  background-color: #0F0F0F;
   font-family: Courier New, monospace;
 }
 
 a{
   text-decoration: none;
+  font-size: 2vmax;
+  color: black;
+}
+
+.liste-der{
+  display: none;
+}
+
+.pan-der{
+  cursor: pointer;
 }
 
 nav{
-  display: flex;
-  width: 20vmax;
-  background-color: #F03838;
+  display: inline-block;
+  text-align: center;
+  width: 100vmax;
+  background-color: #F53838;
   padding: 0.5vmax;
   padding: 1vmax;
+}
+
+.lien-nav{
+  margin-left: 8vmax;
+  margin-right: 8vmax;
 }
 
 #centre{
@@ -25,17 +41,18 @@ nav{
 
 #titre{
   flex-wrap: wrap;
-  height: 14vmax;
+  height: 10vmax;
   width: 100vmax;
   padding-top: 2vmax;
-  padding-left: 6vmax;
-  background-color: #F03838;
   margin: .5vmax;
+  text-align: center;
+  font-size: 2vmax;
+  color: lightgrey;
 }
 
 #affichage{
-  display: flex;
-  width: 80vmax;
   height: 80vmax;
   padding: 1vmax;
+  color: lightgrey;
+  font-size: 2vmax;
 }
